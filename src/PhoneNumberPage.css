@@ -1,0 +1,124 @@
+.phone-number-container {
+      background-color: #1e88e5;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    .top-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      max-height: 40px;
+      max-width: 150px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    label {
+      font-size: 14px;
+      color: #fff;
+      text-align: left;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .phone-input {
+      display: flex;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .country-code {
+      background-color: #fff;
+      padding: 5px 8px;
+      border-radius: 5px 0 0 5px;
+      display: flex;
+      align-items: center;
+      border-right: 1px solid #ccc;
+      width: auto;
+    }
+
+    .country-code img {
+      width: 20px;
+      margin-right: 5px;
+    }
+
+    .country-code span {
+      font-size: 16px;
+    }
+
+    .phone-number-input {
+      padding: 10px;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      width: 100%;
+      font-size: 16px;
+      outline: none;
+    }
+
+    p {
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .location-access {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .location-access span {
+      margin-left: 5px;
+    }
+
+    .continue-button {
+      background-color: #fff;
+      color: #1e88e5;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #fff;
+      margin-top: auto;
+    }
+
+    .continue-button:hover {
+      background-color: #1565c0;
+      color: #fff;
+    }
